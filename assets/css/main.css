@@ -46,7 +46,8 @@
 --------------------------------------------------------------------------------*/
 
 :root {
-  --main-color: #0ba9df;
+  /* --main-color: #0ba9df; */
+  --main-color: #e32636;
 }
 
 a[disabled],
@@ -89,17 +90,31 @@ img {
   padding-bottom: 0px;
 }
 
+/* .md-section-special {
+  height: 50vh !important;
+} */
+
+/* mobile  */
 @media (min-width: 320px) {
   .md-section {
     padding-top: calc(6.81818vw + 28.18182px);
     padding-bottom: calc(6.81818vw + 28.18182px);
   }
+
+  /* .md-section-special {
+    height: 330px;
+  } */
 }
 
+/* desktop */
 @media (min-width: 1200px) {
   .md-section {
     padding-top: 30px;
     padding-bottom: 10px;
+  }
+
+  .md-section-special {
+    height: 330px;
   }
 }
 

@@ -1,0 +1,19 @@
+{
+  "name": "tdsc_consult_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnimeshN/tdsc_consult_webite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnimeshN/tdsc_consult_webite/issues"
+  },
+  "homepage": "https://github.com/AnimeshN/tdsc_consult_webite#readme"
+}
