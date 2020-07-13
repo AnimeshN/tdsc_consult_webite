@@ -47,7 +47,8 @@
 
 :root {
   /* --main-color: #0ba9df; */
-  --main-color: #e32636;
+  /* --main-color: #e32636; */
+  --main-color: #ffb101;
 }
 
 a[disabled],
