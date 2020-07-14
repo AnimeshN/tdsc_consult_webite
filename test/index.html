@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>TDSC</title>
+    <title>Home</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -54,12 +54,6 @@
       href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
       rel="stylesheet"
     />
-
-    <!-- news-ticker-css  -->
-
-    <link href="news-bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
-    <link href="news-bootstrap/css/site.css" rel="stylesheet" type="text/css" />
-
     <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -67,15 +61,12 @@
   </head>
 
   <body>
-    
     <div class="page-wrap">
       <!-- header -->
       <header class="header header__style-02">
         <div class="container">
           <div class="header__logo">
-            <a href="index.html"
-              ><img src="assets/img/logo.png" alt=""
-            /></a>
+            <a href="index.html"><img src="assets/img/logo.svg" alt="" /></a>
           </div>
           <div class="header__toogleGroup">
             <div class="header__chooseLanguage">
@@ -126,7 +117,7 @@
               </li> -->
               <li><a href="service.html">services</a></li>
               <li class="menu-item-has-children">
-                <a href="project.html">projects</a>
+                <a href="project.html">project</a>
                 <ul class="sub-menu">
                   <li><a href="project-detail.html">Project detail</a></li>
                 </ul>
@@ -137,7 +128,6 @@
                   <li><a href="blog-detail.html">Blog detail</a></li>
                 </ul>
               </li> -->
-              <li><a href="#tdsc-news">News</a></li>
               <li><a href="contact.html">contact</a></li>
             </ul>
             <!-- consult-menu -->
@@ -162,10 +152,7 @@
           >
             <div
               class="slider__item"
-              style="
-                background-image: url('assets/img/slider.jpeg');
-                background-size: cover;
-              "
+              style="background-image: url('assets/img/slider.jpeg');"
             >
               <div class="md-tb">
                 <div class="md-tb__cell">
@@ -209,7 +196,7 @@
 
         <!-- Section -->
         <section
-          class="md-section md-section-special"
+          class="md-section"
           style="background-color: #f7f7f7; padding: 0;"
         >
           <div class="container">
@@ -262,47 +249,21 @@
                 <div class="col-md-4 col-lg-4">
                   <!-- textbox -->
                   <div class="textbox">
-                  <div class="col-md-12">
-                  
-    <div class="panel panel-default">
-     
-	<div class="panel-body">
-  <h6 class="title-01__subTitle">news</h6>
-
-	    <div class="row">
-		<div class="col-xs-12">
-		   <ul class="demo2">
-
-	    <?php 
-	    	$fname = "news.txt";       // read news items from this file
-		$fn = fopen($fname,"r");
-                $line1 = fgets($fn);       // first line is number of items 
-		$nitems = intval($line1);
-		for ($x = 0; $x < $nitems; $x++) {
-		// each entry has two lines, a date and the one line news item.
-                    $line1 = fgets($fn);       // first line is date
-                    $line2 = fgets($fn);       // second line is news
-		    $line1 = "<b>" . $line1 . "</b>";
-		    $line = nl2br($line1 . "" . $line2);  
-	     ?>
-
-		   <li class="news-item"><?php echo $line ?></li>
-
-	    <?php   // finish for loop for all news items
-	        }
-
-		fclose($fn);
-
-	    ?>
-	           </ul>
-		</div>
-	    </div>
-	</div>
-	<div class="panel-footer">
-
-	</div>
-    </div>
-</div>
+                    <div class="textbox__image">
+                      <a href="#"
+                        ><img src="assets/img/services/3.jpg" alt=""
+                      /></a>
+                    </div>
+                    <div class="textbox__body">
+                      <h2 class="textbox__title">
+                        <a href="#">Design and execution of case studies</a>
+                      </h2>
+                      <div class="textbox__description">
+                        Development of case studies highlighting best practices,
+                        challenges and solutions for problem areas in the key
+                        sectors
+                      </div>
+                    </div>
                   </div>
                   <!-- End / textbox -->
                 </div>
@@ -467,7 +428,7 @@
                           15
                         </h2>
                       </div>
-                      <div class="box-number__description">Projects</div>
+                      <div class="box-number__description">Project</div>
                     </div>
                     <!-- End / box-number -->
                   </div>
@@ -508,14 +469,6 @@
                     <div class="image-full">
                       <img src="assets/img/gallery/4.jpg" alt="" />
                     </div>
-                  </div>
-                  <!-- End / carousel__element owl-carousel -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- End / Section -->
                   </div>
                   <!-- End / carousel__element owl-carousel -->
                 </div>
@@ -577,22 +530,26 @@
         <!-- NEWS ?-->
 
         <!-- Section -->
-        <!-- <section id="tdsc-news" class="md-section" style="padding-bottom: 0;">
+        <section class="md-section" style="padding-bottom: 0;">
           <div class="container">
             <div class="row">
               <div
                 class="col-md-8 col-lg-8 offset-0 offset-sm-0 offset-md-2 offset-lg-2"
               >
+                <!-- title-01 -->
                 <div class="title-01" style="margin-bottom: 50px;">
                   <h2 class="title-01__title">NEWS</h2>
                 </div>
+                <!-- End / title-01 -->
               </div>
             </div>
             <div class="consult-slide">
+              <!-- carousel__element owl-carousel -->
               <div
                 class="carousel__element owl-carousel"
                 data-options='{"loop":true,"autoplay":true,"autoplayTimeout":1500,"autoplayHoverPause":false,"items":3,"dots":false,"nav":false,"margin":30,"responsive":{"0":{"items":1},"992":{"items":2}}}'
               >
+                <!-- testimonial -->
                 <div class="testimonial">
                   <div class="">
                     <span class="testimonial__position">12/12/12</span>
@@ -605,7 +562,9 @@
                     </div>
                   </div>
                 </div>
+                <!-- End / testimonial -->
 
+                <!-- testimonial -->
                 <div class="testimonial">
                   <div class="">
                     <span class="testimonial__position">12/12/12</span>
@@ -617,7 +576,9 @@
                     </div>
                   </div>
                 </div>
+                <!-- End / testimonial -->
 
+                <!-- testimonial -->
                 <div class="testimonial">
                   <div class="">
                     <span class="testimonial__position">12/12/12</span>
@@ -629,10 +590,12 @@
                     </div>
                   </div>
                 </div>
+                <!-- End / testimonial -->
               </div>
+              <!-- End / carousel__element owl-carousel -->
             </div>
           </div>
-        </section> -->
+        </section>
         <!-- End / Section -->
 
         <!-- Our partner-->
@@ -792,7 +755,7 @@
             <div class="col-8 col-sm-7 col-md-9 col-lg-3">
               <div class="footer__item">
                 <a class="consult_logo" href="#"
-                  ><img src="assets/img/logo.png" width="200px" alt=""
+                  ><img src="assets/img/logo-white.svg" width="200px" alt=""
                 /></a>
                 <p>
                   2nd Floor, Old CSE Building, IIT Bombay, Powai, Mumbai,
@@ -891,7 +854,6 @@
           2020 &copy; Copyright TDSC. All rights Reserved.
         </div>
       </footer>
-     
       <!-- End / footer -->
     </div>
     <!-- Vendors-->
@@ -953,46 +915,5 @@
     ></script>
     <!-- App-->
     <script type="text/javascript" src="assets/js/main.js"></script>
-
-      <!-- script for news ticker -->
-      <script src="news-bootstrap/scripts/jquery.bootstrap.newsbox.min.js" type="text/javascript"></script>
-      <script src="news-bootstrap/scripts/jquery.bootstrap.newsbox.js" type="text/javascript"></script>
-      <script type="text/javascript">
-      $(function () {
-          $(".demo1").bootstrapNews({
-              newsPerPage: 3,
-              autoplay: true,
-        pauseOnHover:true,
-              direction: 'up',
-              newsTickerInterval: 4000,
-              onToDo: function () {
-                  //console.log(this);
-              }
-          });
-  
-      $(".demo2").bootstrapNews({
-              newsPerPage: 3,
-              autoplay: true,
-        pauseOnHover: true,
-        navigation: false,
-              direction: 'down',
-              newsTickerInterval: 2000,
-              onToDo: function () {
-                  //console.log(this);
-              }
-          });
-  
-          $("#demo3").bootstrapNews({
-              newsPerPage: 3,
-              autoplay: false,
-  
-              onToDo: function () {
-                  //console.log(this);
-              }
-          });
-      });
-  
-  </script>
-
   </body>
 </html>
