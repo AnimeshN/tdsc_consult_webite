@@ -49,6 +49,7 @@
   /* --main-color: #0ba9df; */
   /* --main-color: #e32636; */
   --main-color: #ffb101;
+  --main-color-transparent: #ffb30125;
   --header-shrink: #222831;
 }
 
@@ -4527,30 +4528,30 @@ mark,
 --------------------------------------------------------------------------------*/
 
 .page-title {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: #f7f7f7;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: var(--main-color-transparent);
   text-align: center;
 }
 
 @media (min-width: 0) {
   .page-title {
-    padding-top: calc(8.68056pxvw + 50px);
-    padding-bottom: calc(8.68056pxvw + 50px);
+    padding-top: calc(8.68056pxvw + 20px);
+    padding-bottom: calc(8.68056pxvw + 20px);
   }
 }
 
 @media (min-width: 576) {
   .page-title {
-    padding-top: calc(8.01282vw + 53.84615px);
-    padding-bottom: calc(8.01282vw + 53.84615px);
+    padding-top: calc(8.01282vw + 23.84615px);
+    padding-bottom: calc(8.01282vw + 23.84615px);
   }
 }
 
 @media (min-width: 1200px) {
   .page-title {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 
