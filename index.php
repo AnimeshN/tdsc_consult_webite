@@ -137,7 +137,7 @@
                   <li><a href="blog-detail.html">Blog detail</a></li>
                 </ul>
               </li> -->
-              <li><a href="#tdsc-news">News</a></li>
+              <!-- <li><a href="#tdsc-news">News</a></li> -->
               <li><a href="contact.html">contact</a></li>
             </ul>
             <!-- consult-menu -->
