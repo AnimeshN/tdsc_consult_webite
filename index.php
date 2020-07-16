@@ -73,7 +73,7 @@
       <header class="header header__style-02">
         <div class="container">
           <div class="header__logo">
-            <a href="index.html"
+            <a href="index.php"
               ><img src="assets/img/logo.png" alt=""
             /></a>
           </div>
