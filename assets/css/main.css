@@ -1490,7 +1490,7 @@ mark,
 }
 
 .owl-carousel .owl-item img {
-  width: 100%;
+  width: 60%;   /* puru: changed from 100% to 60% */
 }
 
 .owl-nav,
@@ -2801,7 +2801,7 @@ mark,
 
 @media (min-width: 1200px) {
   .iconbox {
-    margin-bottom: 120px;
+    margin-bottom: 12px;  /* puru: changed from 120px to 12px */
   }
 }
 
@@ -3547,9 +3547,9 @@ mark,
 }
 
 .textbox__title {
-  font-size: 24px;
+  font-size: 20px;    /* puru: changed from 24px to 20px */
   font-weight: 400;
-  margin-bottom: 25px;
+  margin-bottom: 5px; /* puru: changed from 25px to 5px */
 }
 
 .textbox__description {
@@ -3582,7 +3582,7 @@ mark,
 
 @media (min-width: 992px) {
   .title-01 {
-    margin-bottom: 100px;
+    margin-bottom: 10px;  /* puru: changed from 100 px to 10 px */
   }
 }
 
