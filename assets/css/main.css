@@ -5008,3 +5008,8 @@ mark,
     margin-bottom: 50px;
   }
 }
+
+/* status */
+.status {
+  color: var(--main-color);
+}
