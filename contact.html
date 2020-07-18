@@ -43,6 +43,8 @@
       href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i&amp;amp;subset=latin-ext"
     />
     <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+     crossorigin="">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <![endif]-->
@@ -138,7 +140,7 @@
       <div class="md-content">
         <!-- Section -->
         <section
-          class="md-section js-consult-form"
+          class="md-section"
           style="background-color: #f7f7f7;"
         >
           <div class="container">
@@ -149,13 +151,15 @@
                 <!-- title-01 -->
                 <div class="title-01">
                   <h2 class="title-01__title">Contact Details</h2>
+                  
                   <div>
-                    Integer placerat ullamcorper urna nec rhoncus. Sed velit
-                    justo, lacinia non sapien imperdiet, sagitt
+                    <!-- Integer placerat ullamcorper urna nec rhoncus. Sed velit
+                    justo, lacinia non sapien imperdiet, sagitt -->
                   </div>
                 </div>
                 <!-- End / title-01 -->
               </div>
+              
             </div>
             <div class="row">
               <div class="col-lg-4">
@@ -164,7 +168,7 @@
                   <div class="iconbox__icon"><i class="ti-email"></i></div>
                   <div>
                     <h2 class="iconbox__title"><a href="#">Email</a></h2>
-                    <div class="iconbox__description">info@awe7.com</div>
+                    <div class="iconbox__description">tdsc.iitb@gmail.com</div>
                   </div>
                 </div>
                 <!-- End / iconbox -->
@@ -178,7 +182,8 @@
                   <div>
                     <h2 class="iconbox__title"><a href="#">location</a></h2>
                     <div class="iconbox__description">
-                      3919 New Cut Rd, Ellicott City, <br />Maryland, US
+                      2nd Floor, Old CSE Building, IIT Bombay, </b>Powai,
+                      Mumbai, Maharashtra 400076
                     </div>
                   </div>
                 </div>
@@ -190,15 +195,16 @@
                   <div class="iconbox__icon"><i class="ti-mobile"></i></div>
                   <div>
                     <h2 class="iconbox__title"><a href="#">hotline</a></h2>
-                    <div class="iconbox__description">+1-202-555-0192</div>
+                    <div class="iconbox__description"> 022-2576-4809</div>
                   </div>
                 </div>
                 <!-- End / iconbox -->
               </div>
             </div>
+            <div class="map-wrap" id="map" style="width:100%; height: 445px;"></div>
 
             <!-- form-01 -->
-            <div
+            <!-- <div
               class="form-01 consult-form js-consult-form__content"
               id="form01"
             >
@@ -225,32 +231,10 @@
                 </div>
               </form>
             </div>
-            <!-- End / form-01 -->
-          </div>
+          </div> -->
         </section>
         <!-- End / Section -->
 
-        <!-- Section -->
-        <section class="md-section">
-          <div class="container">
-            <div class="row">
-              <div
-                class="col-lg-6 offset-0 offset-sm-0 offset-md-0 offset-lg-3"
-              >
-                <!-- title-01 -->
-                <div class="title-01 title-01__style-05">
-                  <h6 class="title-01__subTitle">what’s next</h6>
-                  <h2 class="title-01__title">
-                    Are You Ready,
-                    <a href="#form01" class="clickScroll">Let’s Work</a>
-                  </h2>
-                </div>
-                <!-- End / title-01 -->
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- End / Section -->
       </div>
       <!-- End / Content-->
 
@@ -399,6 +383,21 @@
       type="text/javascript"
       src="assets/vendors/smoothscroll/SmoothScroll.min.js"
     ></script>
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+     crossorigin=""></script>
+     <script>
+        var map = L.map('map',{
+          center: [19.1342508,72.9160279],
+          zoom: 18,
+          zoomControl: false,
+          scrollWheelZoom: false
+        })
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+ var marker = L.marker([19.1342508,72.9160279]).addTo(map);
+
+     </script>
     <!-- App-->
     <script type="text/javascript" src="assets/js/main.js"></script>
   </body>

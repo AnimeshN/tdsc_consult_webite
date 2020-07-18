@@ -1490,7 +1490,7 @@ mark,
 }
 
 .owl-carousel .owl-item img {
-  width: 60%;   /* puru: changed from 100% to 60% */
+  width: 60%; /* puru: changed from 100% to 60% */
 }
 
 .owl-nav,
@@ -2801,7 +2801,7 @@ mark,
 
 @media (min-width: 1200px) {
   .iconbox {
-    margin-bottom: 12px;  /* puru: changed from 120px to 12px */
+    margin-bottom: 12px; /* puru: changed from 120px to 12px */
   }
 }
 
@@ -3547,7 +3547,7 @@ mark,
 }
 
 .textbox__title {
-  font-size: 20px;    /* puru: changed from 24px to 20px */
+  font-size: 20px; /* puru: changed from 24px to 20px */
   font-weight: 400;
   margin-bottom: 5px; /* puru: changed from 25px to 5px */
 }
@@ -3582,7 +3582,7 @@ mark,
 
 @media (min-width: 992px) {
   .title-01 {
-    margin-bottom: 10px;  /* puru: changed from 100 px to 10 px */
+    margin-bottom: 10px; /* puru: changed from 100 px to 10 px */
   }
 }
 
@@ -4996,4 +4996,15 @@ mark,
 
 #lab_social_icon_footer #social-em:hover {
   color: var(--main-color);
+}
+
+/* leaflet map  */
+
+.map-wrap {
+  margin-bottom: 120px;
+}
+@media (max-width: 991px) {
+  .map-wrap {
+    margin-bottom: 50px;
+  }
 }
