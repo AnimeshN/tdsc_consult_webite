@@ -45,6 +45,9 @@
     <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
      crossorigin="">
+
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
+
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <![endif]-->
@@ -385,6 +388,10 @@
     ></script>
     <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
      crossorigin=""></script>
+
+<script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
+
+
      <script>
         var map = L.map('map',{
           center: [19.1342508,72.9160279],
@@ -396,7 +403,9 @@
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
  var marker = L.marker([19.1342508,72.9160279]).addTo(map);
-
+ L.easyButton('fa-map', function(){
+    window.open("https://www.google.com/maps/place/TDSC/@19.1342076,72.916077,15z/data=!4m5!3m4!1s0x0:0x9612a41fe3a39ac9!8m2!3d19.1342076!4d72.916077");
+}).addTo(map);
      </script>
     <!-- App-->
     <script type="text/javascript" src="assets/js/main.js"></script>
