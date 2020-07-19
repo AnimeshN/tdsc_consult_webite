@@ -1,0 +1,188 @@
+:root {
+  /* --main-color: #0ba9df; */
+  /* --main-color: #e32636; */
+  --main-color: #ffb101;
+  --main-color-transparent: #ffb30125;
+  --header-shrink: #222831;
+}
+
+.section-gap {
+  padding: 120px 0;
+}
+
+.event-page-lists .single-carusel {
+  margin-bottom: 50px;
+}
+.event-page-lists .primary-btn {
+  border: 1px solid transparent;
+}
+.event-page-lists .primary-btn:hover {
+  color: #f7631b;
+  border-color: #f7631b;
+  background: transparent;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+@media (max-width: 576px) {
+  .single-carusel {
+    margin: 15px;
+  }
+}
+.single-carusel h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.single-carusel p {
+  margin-top: 0px !important;
+  margin-bottom: 0px;
+}
+.single-carusel .thumb {
+  overflow: hidden;
+}
+.single-carusel .thumb img {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+}
+.single-carusel .detials h4 {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.single-carusel .detials h4:hover {
+  color: #f7631b;
+}
+.single-carusel .detials p {
+  margin-top: 20px;
+}
+.single-carusel:hover .thumb img {
+  transform: scale(1.05) rotate(-1.05deg);
+}
+
+/* event-detaio */
+
+.event-details-area .details-content h4 {
+  margin: 20px 0px;
+}
+.event-details-area .social-nav {
+  padding-top: 50px;
+}
+.event-details-area .social-nav .focials li {
+  text-align: right;
+  display: inline-block;
+}
+.event-details-area .social-nav .focials li a {
+  color: #fff;
+}
+.event-details-area .social-nav .focials li a .fa-facebook {
+  width: 30px;
+  display: block;
+  text-align: center;
+  padding: 8px 0px;
+  background: #4b6eaa;
+}
+.event-details-area .social-nav .focials li a .fa-twitter {
+  width: 30px;
+  display: block;
+  text-align: center;
+  padding: 8px 0px;
+  background: #00c7f8;
+}
+.event-details-area .social-nav .focials li a .fa-dribbble {
+  width: 30px;
+  display: block;
+  text-align: center;
+  padding: 8px 0px;
+  background: #f982aa;
+}
+.event-details-area .social-nav .focials li a .fa-behance {
+  width: 30px;
+  display: block;
+  text-align: center;
+  padding: 8px 0px;
+  background: #0b8eff;
+}
+.event-details-area .social-nav .navs {
+  text-align: right;
+}
+.event-details-area .social-nav .navs a {
+  background: #f9f9ff;
+  color: #222;
+  padding: 10px 25px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+@media (max-width: 414px) {
+  .event-details-area .social-nav .navs a {
+    font-size: 12px;
+  }
+}
+.event-details-area .social-nav .navs a:hover {
+  background: #f7631b;
+  color: #fff;
+}
+.event-details-area .social-nav .navs .nav-prev .lnr {
+  margin-right: 5px;
+}
+.event-details-area .social-nav .navs .nav-next .lnr {
+  margin-left: 5px;
+}
+@media (max-width: 767px) {
+  .event-details-area .social-nav .navs {
+    margin-top: 30px;
+    text-align: left;
+  }
+}
+@media (max-width: 991px) {
+  .event-details-area .event-details-right {
+    margin-top: 30px;
+  }
+}
+.event-details-area .event-details-right .single-event-details {
+  background: #f9f9ff;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.event-details-area .event-details-right .single-event-details ul li {
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+  padding: 5px 0px;
+}
+.event-details-area
+  .event-details-right
+  .single-event-details
+  ul
+  li:last-child {
+  border-bottom: none;
+}
+
+.search-course-area .details-content {
+  margin-top: 50px;
+}
+.search-course-area .details-content .single-detials span {
+  color: #f7631b;
+  font-size: 30px;
+}
+.search-course-area .details-content .single-detials h4 {
+  margin: 20px 0px;
+  color: #fff;
+}
+.search-course-area .details-content .single-detials p {
+  margin-bottom: 0px;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .search-course-area .details-content .single-detials h4 {
+    font-size: 12px;
+  }
+}
