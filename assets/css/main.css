@@ -3058,7 +3058,10 @@ mark,
 }
 
 .post-02__media img {
-  width: 100%;
+  width: 70%;
+  text-align: center;
+  display: block;
+  margin: auto;
 }
 
 .post-02__body {
