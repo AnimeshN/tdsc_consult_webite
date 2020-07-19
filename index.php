@@ -114,8 +114,9 @@
           <nav class="consult-nav">
             <!-- consult-menu -->
             <ul class="consult-menu">
-              <li class="current-menu-item"><a href="index.html">Home</a></li>
+              <li class="current-menu-item"><a href="index.php">Home</a></li>
               <li><a href="about.html">about</a></li>
+              <li><a href="events.html">events</a></li>
               <!-- <li class="menu-item-has-children">
                 <a href="#">page</a>
                 <ul class="sub-menu">
@@ -124,20 +125,16 @@
                   <li><a href="typography.html">Typography</a></li>
                 </ul>
               </li> -->
-              <li><a href="service.html">services</a></li>
+              <li><a href="services.html">services</a></li>
               <li class="menu-item-has-children">
-                <a href="project.html">projects</a>
-                <ul class="sub-menu">
+                <a href="projects.html">projects</a>
+                <!-- <ul class="sub-menu">
                   <li><a href="project-detail.html">Project detail</a></li>
-                </ul>
+                </ul> -->
               </li>
-              <!-- <li class="menu-item-has-children">
-                <a href="blog.html">blog</a>
-                <ul class="sub-menu">
-                  <li><a href="blog-detail.html">Blog detail</a></li>
-                </ul>
-              </li> -->
-              <!-- <li><a href="#tdsc-news">News</a></li> -->
+              <li><a href="resources.html">Resources</a></li>
+
+             
               <li><a href="contact.html">contact</a></li>
             </ul>
             <!-- consult-menu -->
