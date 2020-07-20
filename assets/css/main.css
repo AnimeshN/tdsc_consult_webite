@@ -4636,9 +4636,10 @@ mark,
 }
 
 .slider__content h2 {
-  font-weight: 400;
+  font-weight: 500;
   color: white;
   font-size: 30px;
+  font-family: "American Typewriter, serif";
 }
 
 @media (min-width: 320px) {
@@ -4649,7 +4650,7 @@ mark,
 
 @media (min-width: 992px) {
   .slider__content h2 {
-    font-size: 68px;
+    font-size: 40px;
   }
 }
 
