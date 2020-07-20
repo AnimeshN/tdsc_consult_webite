@@ -17,8 +17,8 @@
   border: 1px solid transparent;
 }
 .event-page-lists .primary-btn:hover {
-  color: #f7631b;
-  border-color: #f7631b;
+  color: var(--main-color);
+  border-color: var(--main-color);
   background: transparent;
 }
 
@@ -56,7 +56,7 @@
   transition: all 0.3s ease 0s;
 }
 .single-carusel .detials h4:hover {
-  color: #f7631b;
+  color: var(--main-color);
 }
 .single-carusel .detials p {
   margin-top: 20px;
