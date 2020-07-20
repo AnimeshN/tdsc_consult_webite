@@ -3060,14 +3060,26 @@ mark,
 }
 
 .post-02__media img {
+  width: 70%;
+  text-align: left;
+  display: block;
+  margin: auto;
+}
+
+.post-02__media_re img {
   width: 8%;
   text-align: left;
   display: block;
-/*  margin: auto; */
-  align: left;
+  /* align: left; */
 }
 
 .post-02__body {
+  padding: 20px 30px;
+  border: 1px solid #ebebeb;
+  border-top: none;
+}
+
+.post-02__body_re {
   padding: 10px 30px;
   border: 1px solid #ebebeb;
   border-top: none;
@@ -3076,6 +3088,10 @@ mark,
 }
 
 .post-02__title {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.post-02__title_re {
   font-size: 15px;
   margin-bottom: 0;
   margin-left: 5px;
