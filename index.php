@@ -207,7 +207,7 @@
         <!-- Section -->
         <section
           class="md-section md-section-special"
-          style="background-color: #f7f7f7; padding: 40px;"
+          style="background-color: #f7f7f7; margin: 40px;"
         >
           <div class="container">
             <div class="textbox-group">

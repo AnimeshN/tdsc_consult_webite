@@ -4136,6 +4136,8 @@ mark,
 
 .header__style-02:not(.shrink) {
   box-shadow: none;
+  position: fixed;
+  background-color: var(--header-shrink);
 }
 
 .header__style-02:not(.shrink) .consult-nav .consult-menu > li > a {
