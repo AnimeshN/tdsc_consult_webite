@@ -3060,21 +3060,26 @@ mark,
 }
 
 .post-02__media img {
-  width: 70%;
-  text-align: center;
+  width: 8%;
+  text-align: left;
   display: block;
-  margin: auto;
+/*  margin: auto; */
+  align: left;
 }
 
 .post-02__body {
-  padding: 20px 30px;
+  padding: 10px 30px;
   border: 1px solid #ebebeb;
   border-top: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .post-02__title {
-  font-size: 18px;
+  font-size: 15px;
   margin-bottom: 0;
+  margin-left: 5px;
+  text-align: left;
 }
 
 .post-02__department {
