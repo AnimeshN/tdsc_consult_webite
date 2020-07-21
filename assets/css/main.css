@@ -4020,6 +4020,7 @@ mark,
 .header.shrink {
   position: fixed;
   background-color: var(--header-shrink);
+  height:60px;    /* puru changed from 100 px to 60 px */
 }
 
 .header.shrink .header__logo {
@@ -4035,8 +4036,10 @@ mark,
 
 @media (min-width: 992px) {
   .header.shrink .consult-nav .consult-menu > li > a {
-    height: 70px;
-    line-height: 70px;
+    height: 60px;
+    line-height: 60px;
+	position: relative;
+	margin:auto;
   }
 }
 
@@ -4055,9 +4058,9 @@ mark,
 }
 
 .header__logo {
-  height: 100px;
+  height: 60px;   /* puru changed from 100 px to 60 px */
   max-width: 100px;
-  line-height: 100px;
+  line-height: 60px;   /* puru changed from 100 px to 60 px */
   float: left;
   transition: height 0.3s ease;
 }
@@ -4138,10 +4141,15 @@ mark,
   box-shadow: none;
   position: fixed;
   background-color: var(--header-shrink);
+  height:60px;    /* puru changed from 100 px to 60 px */
 }
 
 .header__style-02:not(.shrink) .consult-nav .consult-menu > li > a {
   color: #fff;
+    height: 60px;           /* puru added */
+    line-height: 60px;           /* puru added */
+	position: relative;           /* puru added */
+	margin:auto;           /* puru added */
 }
 
 .header__style-02:not(.shrink)
