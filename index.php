@@ -805,30 +805,30 @@
                 <section class="widget-text__widget widget">
                   <div class="widget-text__content">
                     <ul>
-                      <li><a href="#">About</a></li>
-                      <li><a href="#">Projects </a></li>
-                      <li><a href="#">Services </a></li>
-                      <li><a href="#">Contact</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="projects.html">Projects </a></li>
+                      <li><a href="services.html">Services </a></li>
+                      <li><a href="contact.html">Contact</a></li>
                     </ul>
                   </div>
                 </section>
                 <!-- End / widget-text__widget -->
               </div>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-2 col-xl-2">
+            <!-- <div class="col-sm-6 col-md-4 col-lg-2 col-xl-2">
               <div class="footer__item">
                 <section class="widget-text__widget widget">
                   <div class="widget-text__content">
-                    <!-- <ul>
+                    <ul>
                       <li><a href="#">Resources</a></li>
                       <li><a href="#">Project 1 </a></li>
                       <li><a href="#">Project 2 </a></li>
                       <li><a href="#">Project 3</a></li>
-                    </ul> -->
+                    </ul>
                   </div>
                 </section>
               </div>
-            </div>
+            </div> -->
             <!-- <div class="col-md-4 col-lg-2 col-xl-2">
               <div class="footer__item">
                 <div class="form-sub">
