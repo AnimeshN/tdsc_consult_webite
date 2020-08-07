@@ -494,7 +494,7 @@
                     data-options='{"items":1,"loop":true,"dots":false,"nav":false,"margin":30,"responsive":{"0":{"items":2},"576":{"items":3},"992":{"items":1}}}'
                   >
                     <div class="image-full">
-                      <img src="assets/img/gallery/1.jpg" alt="" />
+                      <img src="assets/img/gallery/1.jpg" alt=""/>
                     </div>
                     <div class="image-full">
                       <img src="assets/img/gallery/2.jpg" alt="" />
